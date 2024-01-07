@@ -1,0 +1,127 @@
+*{
+    margin:0;
+    padding: 0;
+}
+body{
+    background-color: aqua;
+}
+.nom{
+    font-weight: bold;
+    padding-left: 10px;
+}
+
+.mevalar{
+    display: flex;
+}
+.meva{
+    width: 300px;
+    
+    background-color: aquamarine;
+    
+    text-align: center;
+    padding-top:20px;
+    border: 5px solid yellow;
+}
+.btn{
+    background-color: deeppink;
+    border: 3px solid blueviolet;
+    font-weight: bold;
+    transition: 0.3s;
+    font-size: 16px;
+    padding: 8px 20px;
+}
+.btn:hover{
+    background-color:blue;
+    border:3px solid bisque;
+    color:antiquewhite;
+    box-shadow: 0 0 20px 10px #ccc;
+
+}
+.nom2{
+    font-weight: bold;
+    padding-left: 10px;
+}
+
+.rasmlar{
+    display: flex;
+}
+.rasm{
+    width: 300px;
+    background-color: aquamarine;
+
+    text-align: center;
+    padding-top:20px;
+    border: 5px solid yellow;
+    ;
+}
+.matn{
+    transition: 0.3s;
+}
+.matn:hover{
+    box-shadow:0 0 20px 10px #ccc;
+    background-color: blue;
+    border: 2px solid black;
+    font-size: 25px;
+}
+.nom{
+    transition: 0.3s;
+}
+.nom:hover{
+    font-size: 18px;
+    box-shadow: 0 0 20px 10px #ccc;
+    background-color: blueviolet;
+}
+.matn2{
+    transition: 0.3s;
+}
+.matn2:hover{
+    box-shadow:0 0 20px 10px #ccc;
+    background-color: blue;
+    border: 2px solid black;
+}
+.nom2{
+    transition: 0.3s;
+}
+.nom2:hover{
+    font-size: 18px;
+    box-shadow: 0 0 20px 10px #ccc;
+    background-color: blueviolet;
+}
+.kunopka{
+    background-color: deeppink;
+    border: 3px solid blueviolet;
+    font-weight: bold;
+    transition: 0.3s;
+    font-size: 18pxpx;
+    padding: 8px 20px;
+}
+.kunopka:hover{
+    background-color:blue;
+    border:3px solid bisque;
+    color:antiquewhite;
+    box-shadow: 0 0 20px 10px #ccc;}
+
+
+.meva{
+    transition: 0.9s;
+}
+.meva:hover{
+    background-color: chocolate;
+    border: 5px solid brown;
+    transform: rotate(360deg);
+}
+.meva:hover nom{
+    background-color: khaki;
+}
+   
+
+.rasm{
+    transition: 0.9s;
+}
+.rasm:hover{
+    background-color: chocolate;
+    border: 5px solid brown;
+    transform: rotate(360deg);
+}
+   
+
